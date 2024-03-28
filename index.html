@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" >
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <script>
+        function changeButtonColor(button) {
+            button.classList.add('visited');
+            button.innerText = 'Visited';
+        }
+        function Scrollfunction(id) {
+            const element = document.getElementbyID(id);
+            element.scrollIntoView({behavior: 'smooth'})
+        }
+    </script>
+    
+    <header class="header">
+        <a href="#" class = "logo">Rishabh.</a>
+
+        <nav class="navbar">
+            <a onclick="Scrollfunction('Home')">Home</a>
+            <a href="#">About</a>
+            <a onclick="Scrollfunction('skill')">Skills</a>
+            <a href="#" class="active">Portfolio</a>
+            <a href="#">Contact</a>
+
+        </nav> 
+    </header>
+
+    <section class="Home">
+        <div class="Home-content">
+            <h1>Hi, I am Rishabh Dehariya</h1>
+            <h3>~Writer</h3>
+            <p>I am a first year undergraduate student of the department of Industrial and Systems Engineering enrolled in its B.Tech course. I am a boarder of Pandit Madan Mohan Malviya Hall of Residence. I am from Bhopal, Madhya Pradesh. I like to stay alone and do my work and I love to write in my leisure time. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia illum quo minus possimus suscipit deserunt dicta eius commodi molestiae ducimus asperiores, voluptatum modi minima obcaecati quisquam, autem fuga error doloremque.</p>
+            <div class="btn-box">
+                <a href = "#">Hire Me</a>
+                <a href="#">Let's Talk</a>
+
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+        </div>
+
+        <span class="imageHover"></span>
+    </section>
+    <h1 class="title">My Projects</h1>
+    <section class="container">
+        
+        <div class="card">
+            <img src="https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg" alt="Project 1">
+            <h3 class="card-title">Project 1</h3>
+            <button class="button" onclick="changeButtonColor(this)">Visit-></button>
+        </div>
+        <div class="card">
+            <img src="https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg" alt="Project 2">
+            <h3 class="card-title">Project 2</h3>
+            <button class="button" onclick="changeButtonColor(this)">Visit-></button>
+        </div>
+        <div class="card">
+            <img src="https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg" alt="Project 3">
+            <h3 class="card-title">Project 3</h3>
+            <button class="button" onclick="changeButtonColor(this)">Visit-></button>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosXzZm-A9as8zxhyxjCh-OsT6mkbDSii2OA&usqp=CAU" alt="Project 4">
+            <h3 class="card-title">Project 4</h3>
+            <button class="button" onclick="changeButtonColor(this)">Visit-></button>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosXzZm-A9as8zxhyxjCh-OsT6mkbDSii2OA&usqp=CAU" alt="Project 5">
+            <h3 class="card-title">Project 5</h3>
+            <button class="button" onclick="changeButtonColor(this)">Visit-></button>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosXzZm-A9as8zxhyxjCh-OsT6mkbDSii2OA&usqp=CAU" alt="Project 6">
+            <h3 class="card-title">Project 6</h3>
+            <button class="button" onclick="changeButtonColor(this)">Visit-></button>
+        </div>
+        
+    </section>
+
+    <div class="skills-achievement-section" id="skill">
+        <h1 class="Title">My Skills & Achievements</h1>
+        <section class="grid-container">
+            <div class="skill card1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosXzZm-A9as8zxhyxjCh-OsT6mkbDSii2OA&usqp=CAU" alt="Skill 1">
+                <h3 class="card-title">Skill 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="skill card2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosXzZm-A9as8zxhyxjCh-OsT6mkbDSii2OA&usqp=CAU" alt="Skill 2">
+                <h3 class="card-title">Skill 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="skill card3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosXzZm-A9as8zxhyxjCh-OsT6mkbDSii2OA&usqp=CAU" alt="Skill 3">
+                <h3 class="card-title">Skill 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="skill card4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosXzZm-A9as8zxhyxjCh-OsT6mkbDSii2OA&usqp=CAU" alt="Skill 4">
+                <h3 class="card-title">Skill 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="skill card5">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosXzZm-A9as8zxhyxjCh-OsT6mkbDSii2OA&usqp=CAU" alt="Skill 5">
+                <h3 class="card-title">Skill 5</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="skill card6">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosXzZm-A9as8zxhyxjCh-OsT6mkbDSii2OA&usqp=CAU" alt="Skill 6">
+                <h3 class="card-title">Skill 6</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="skill card7">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosXzZm-A9as8zxhyxjCh-OsT6mkbDSii2OA&usqp=CAU" alt="Skill 7">
+                <h3 class="card-title">Skill 7</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </section></div>
+
+
+
+    <section class="contact-section">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Type Your Name Here" required  >
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Type Your e-mail address here">
+            </div>
+            <div class="form-group">
+                <label for="date">Date for Appointment:</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write whatever you want to discuss with me here" required ></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+</body>
+</html>
